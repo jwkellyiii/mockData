@@ -2,6 +2,7 @@
   "users": [],
   "meetings": [
     {
+      "id": 1,
       "meetingId": "cd5d3976-a61e-4bcd-a18d-96655eb6c48a",
       "organizer": {
         "name": "John Kelly",
