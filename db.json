@@ -16,10 +16,49 @@
       "subject": "Phone Interview",
       "meetingEmail": "Hey MK,\nLooking forward to our talk. Thanks!\n\n-jk",
       "introEmail": "Hey MK,\nI want to setup a time to have a quick phone call. Let me know what time works. Thanks!\n\n-jk",
-      "availablity": {
-        "start": "1524077684000",
-        "end": "1524628800000"
-      }
+      "availablity": [{
+        "start": "2018-05-14T12:00:00Z",
+        "end": "2018-05-14T21:00:00Z"
+      }, {
+        "start": "2018-05-16T12:00:00Z",
+        "end": "2018-05-16T14:00:00Z"
+      }, {
+        "start": "2018-05-16T14:00:00Z",
+        "end": "2018-05-16T15:00:00Z"
+      }, {
+        "start": "2018-05-17T14:00:00Z",
+        "end": "2018-05-17T15:00:00Z"
+      }, {
+        "start": "2018-05-18T14:00:00Z",
+        "end": "2018-05-18T18:00:00Z"
+      }],
+      "duration": 30
+    }, {
+      "id": 2,
+      "meetingId": "cd5d3976-a61e-4bcd-a18d-96655eb6c48a",
+      "organizer": {
+        "name": "John Kelly",
+        "email": "john.kelly@healthcaresource.com"
+      },
+      "attendees": [
+        { "email": "Marykate.Kelly@healthcaresource.com" }
+      ],
+      "start": "",
+      "end": "",
+      "subject": "Phone Interview",
+      "meetingEmail": "Hey MK,\nLooking forward to our talk. Thanks!\n\n-jk",
+      "introEmail": "Hey MK,\nI want to setup a time to have a quick phone call. Let me know what time works. Thanks!\n\n-jk",
+      "availablity": [{
+        "start": "2018-05-13T09:00:00Z",
+        "end": "2018-05-13T18:00:00Z"
+      }, {
+        "start": "2018-05-14T09:00:00Z",
+        "end": "2018-05-14T11:00:00Z"
+      }, {
+        "start": "2018-05-14T14:00:00Z",
+        "end": "2018-05-14T15:00:00Z"
+      }],
+      "duration": 30
     }
   ]
 }
