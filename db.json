@@ -4,63 +4,585 @@
     {
       "id": 1,
       "meetingId": "cd5d3976-a61e-4bcd-a18d-96655eb6c48a",
-      "organizer": {
-        "name": "John Kelly",
-        "email": "john.kelly@healthcaresource.com"
-      },
-      "attendees": [
-        { "email": "Marykate.Kelly@healthcaresource.com" }
+      "clientId": 69367,
+      "participants": [
+        {
+          "name": "John Kelly",
+          "email": "john.kelly@healthcaresource.com",
+          "type": "organizer",
+          "status": "pending"
+        },
+        {
+          "name": "Marykate Kelly",
+          "email": "Marykate.Kelly@healthcaresource.com",
+          "type": "invitee",
+          "status": "pending"
+        }
       ],
-      "start": "",
-      "end": "",
-      "subject": "Phone Interview",
-      "meetingEmail": "Hey MK,\nLooking forward to our talk. Thanks!\n\n-jk",
-      "introEmail": "Hey MK,\nI want to setup a time to have a quick phone call. Let me know what time works. Thanks!\n\n-jk",
-      "availablity": [{
-        "start": "2018-05-14T12:00:00Z",
-        "end": "2018-05-14T21:00:00Z"
-      }, {
-        "start": "2018-05-16T12:00:00Z",
-        "end": "2018-05-16T14:00:00Z"
-      }, {
-        "start": "2018-05-16T14:00:00Z",
-        "end": "2018-05-16T15:00:00Z"
-      }, {
-        "start": "2018-05-17T14:00:00Z",
-        "end": "2018-05-17T15:00:00Z"
-      }, {
-        "start": "2018-05-18T14:00:00Z",
-        "end": "2018-05-18T18:00:00Z"
-      }],
+      "location": "phone",
       "duration": 30,
-      "location": "phone"
-    }, {
-      "id": 2,
-      "meetingId": "cd5d3976-a61e-4bcd-a18d-96655eb6c48a",
-      "organizer": {
-        "name": "John Kelly",
-        "email": "john.kelly@healthcaresource.com"
-      },
-      "attendees": [
-        { "email": "Marykate.Kelly@healthcaresource.com" }
-      ],
       "start": "",
       "end": "",
-      "subject": "Phone Interview",
-      "meetingEmail": "Hey MK,\nLooking forward to our talk. Thanks!\n\n-jk",
-      "introEmail": "Hey MK,\nI want to setup a time to have a quick phone call. Let me know what time works. Thanks!\n\n-jk",
-      "availablity": [{
-        "start": "2018-05-13T09:00:00Z",
-        "end": "2018-05-13T18:00:00Z"
-      }, {
-        "start": "2018-05-14T09:00:00Z",
-        "end": "2018-05-14T11:00:00Z"
-      }, {
-        "start": "2018-05-14T14:00:00Z",
-        "end": "2018-05-14T15:00:00Z"
-      }],
+      "summary": "Phone Interview",
+      "requestSubject": "Phone Interview",
+      "requestMessage": "Hey MK,\nI want to setup a time to have a quick phone call. Let me know what time works. Thanks!\n\n-jk",
+      "confirmSubject": "Confirmation of phone interview",
+      "confirmMessage": "Hey MK,\nLooking forward to our talk. Thanks!\n\n-jk",
+      "possibleMeetingTimes": [
+        {
+          "start": "2018-05-14T12:00:00Z",
+          "end": "2018-05-14T21:00:00Z"
+        },
+        {
+          "start": "2018-05-16T12:00:00Z",
+          "end": "2018-05-16T14:00:00Z"
+        },
+        {
+          "start": "2018-05-16T14:00:00Z",
+          "end": "2018-05-16T15:00:00Z"
+        },
+        {
+          "start": "2018-05-17T14:00:00Z",
+          "end": "2018-05-17T15:00:00Z"
+        },
+        {
+          "start": "2018-05-18T14:00:00Z",
+          "end": "2018-05-18T18:00:00Z"
+        }
+      ],
+      "createdDate": "2018-05-10T14:46:33.254-04:00",
+      "modifiedDate": "2018-05-10T14:46:33.254-04:00",
+      "inviteStatus": "pending",
+      "createdBy": "2fef814c-f919-4444-928b-840e50aaf412",
+      "versionNumber": 0
+    },
+    {
+      "id": 2,
+      "meetingId": "93787466-568f-46e5-8e89-981ae26ff1d2",
+      "clientId": 69367,
+      "participants": [
+        {
+          "name": "Big Boss Man",
+          "email": "john.kelly@healthcaresource.com",
+          "type": "organizer",
+          "status": "pending"
+        },
+        {
+          "name": "Marykate Kelly",
+          "email": "Marykate.Kelly@healthcaresource.com",
+          "type": "invitee",
+          "status": "pending"
+        }
+      ],
+      "location": "Healthcaresource office in Woburn, MA",
       "duration": 120,
-      "location": "Healthcaresource office in Woburn, MA"
+      "start": "",
+      "end": "",
+      "summary": "Phone Interview",
+      "requestSubject": "Phone Interview",
+      "requestMessage": "Hey MK,\nI want to setup a time to have a quick phone call. Let me know what time works. Thanks!\n\n-jk",
+      "confirmSubject": "Confirmation of phone interview",
+      "confirmMessage": "Hey MK,\nLooking forward to our talk. Thanks!\n\n-jk",
+      "possibleMeetingTimes": [
+        {
+          "start": "2018-05-21T12:00:00Z",
+          "end": "2018-05-21T21:00:00Z"
+        },
+        {
+          "start": "2018-05-22T12:00:00Z",
+          "end": "2018-05-22T14:00:00Z"
+        },
+        {
+          "start": "2018-05-22T17:00:00Z",
+          "end": "2018-05-22T18:00:00Z"
+        }
+      ],
+      "createdDate": "2018-05-10T14:46:33.254-04:00",
+      "modifiedDate": "2018-05-10T14:46:33.254-04:00",
+      "inviteStatus": "pending",
+      "createdBy": "2fef814c-f919-4444-928b-840e50aaf412",
+      "versionNumber": 0
+    },
+    {
+      "id": 3,
+      "meetingId": "b005ff4d-923f-48a1-88c4-d8d83f56f642",
+      "clientId": "94033",
+      "participants": [
+        {
+          "name": "Geoffrey Blosser",
+          "email": "geoff.blosser@healthcaresource.com",
+          "type": "organizer",
+          "status": "pending"
+        },
+        {
+          "name": "Chris Morrison",
+          "email": "chris.morrison@healthcaresource.com",
+          "type": "attendee",
+          "status": "pending"
+        },
+        {
+          "name": "Prasant.Ghantasala",
+          "email": "prasant.ghantasala@healthcaresource.com",
+          "type": "invitee",
+          "status": "pending"
+        }
+      ],
+      "location": "Healthcare Source, 100 Trade Center, Woburn, MA",
+      "duration": 60,
+      "start": "",
+      "end": "",
+      "summary": "Test Meeting",
+      "requestSubject": "Meeting Request",
+      "requestMessage": "Will you attend?",
+      "confirmSubject": "Meeting Confirmation",
+      "confirmMessage": "So happy you will attend!",
+      "possibleMeetingTimes": [
+        {
+          "start": "2018-05-21T13:00:23+00:00",
+          "end": "2018-05-21T21:00:23+00:00"
+        }
+      ],
+      "createdDate": "2018-05-10T14:46:33.254-04:00",
+      "modifiedDate": "2018-05-10T14:46:33.254-04:00",
+      "inviteStatus": "pending",
+      "createdBy": "2fef814c-f919-4444-928b-840e50aaf412",
+      "versionNumber": 0
+    },
+    {
+      "participants": [
+        {
+          "name": "John Kelly",
+          "email": "john.kelly@healthcaresource.com",
+          "type": "organizer",
+          "status": "pending"
+        },
+        {
+          "name": "test",
+          "email": "test@test.com",
+          "type": "invitee",
+          "status": "pending"
+        }
+      ],
+      "location": "phone",
+      "duration": 30,
+      "requestSubject": "test 1",
+      "requestMessage": "Hello,\n\nThank you for your application to [company name].We would like to invite you to interview with us to tell you a little more about the position and get to know you better.\n\nPlease use our self - scheduler to set up an interview time.Once you have selected an available time, you’ ll receive a confirmation email with interview details.\n\nWe look forward to meeting you,\n\n-jk[Signature]",
+      "confirmSubject": "test 2",
+      "confirmMessage": "Hello,\n\nThank you for using our self - scheduler to set up your interview.You are confirmed to meet with[company name] at the time and location below:\n\nWhen: [Date / time and duration of appointment]\nWhere: [Full address or phone contact details]\nWho: [Name of the interviewer]\n\nFeel free to contact me via email or at [insert contact phone number], if you have any questions.\n\nWe look forward to meeting with you and discussing this opportunity.\n\nKind regards,\n\n-jk[Signature]",
+      "meetingId": "b03d0dcb-643c-ea8b-0d0b-3406e4dc8bd5",
+      "clientId": 13669,
+      "start": "",
+      "end": "",
+      "summary": "What is summary used for?",
+      "possibleMeetingTimes": [
+        {
+          "start": "2018-05-28T16:00:00.000Z",
+          "end": "2018-05-28T20:00:00.000Z"
+        },
+        {
+          "start": "2018-05-29T12:00:00.000Z",
+          "end": "2018-05-29T14:00:00.000Z"
+        },
+        {
+          "start": "2018-05-30T13:00:00.000Z",
+          "end": "2018-05-30T19:00:00.000Z"
+        }
+      ],
+      "createdDate": "2018-05-21T14:11:19.297Z",
+      "modifiedDate": "2018-05-21T14:11:19.297Z",
+      "inviteStatus": "pending",
+      "createdBy": "6e802b97-d253-78b2-ddb6-a7e176df5ee5",
+      "versionNumber": 0,
+      "id": 4
+    },
+    {
+      "participants": [
+        {
+          "name": "John Kelly",
+          "email": "john.kelly@healthcaresource.com",
+          "type": "organizer",
+          "status": "pending"
+        },
+        {
+          "name": "test person",
+          "email": "test@test.com",
+          "type": "invitee",
+          "status": "pending"
+        }
+      ],
+      "location": "phone",
+      "duration": "30",
+      "requestSubject": "test 1",
+      "requestMessage": "Hello,\n\nThank you for your application to [company name]. We would like to invite you to interview with us to tell you a little more about the position and get to know you better.\n\nPlease use our self-scheduler to set up an interview time. Once you have selected an available time, you’ll receive a confirmation email with interview details.\n\nWe look forward to meeting you,\n\n-jk\n[Signature]",
+      "confirmSubject": "test 2",
+      "confirmMessage": "Hello,\n\nThank you for using our self-scheduler to set up your interview. You are confirmed to meet with [company name] at the time and location below:\n\nWhen: [Date / time and duration of appointment]\nWhere: [Full address or phone contact details]\nWho: [Name of the interviewer]\n\nFeel free to contact me via email or at [insert contact phone number], if you have any questions.\n\nWe look forward to meeting with you and discussing this opportunity.\n\nKind regards,\n\n-jk\n[Signature]",
+      "meetingId": "ffec166a-4ab2-f1ac-c31b-d61b92670706",
+      "clientId": 94812,
+      "start": "",
+      "end": "",
+      "summary": "What is summary used for?",
+      "possibleMeetingTimes": [
+        {
+          "start": "2018-05-28T16:00:00.000Z",
+          "end": "2018-05-28T18:00:00.000Z"
+        },
+        {
+          "start": "2018-05-29T20:00:00.000Z",
+          "end": "2018-05-29T22:00:00.000Z"
+        },
+        {
+          "start": "2018-05-30T13:00:00.000Z",
+          "end": "2018-05-30T15:00:00.000Z"
+        }
+      ],
+      "createdDate": "2018-05-21T14:31:12.181Z",
+      "modifiedDate": "2018-05-21T14:31:12.181Z",
+      "inviteStatus": "pending",
+      "createdBy": "47affb03-1bad-5155-1229-b01bcc32f2b2",
+      "versionNumber": 0,
+      "id": 5
+    },
+    {
+      "participants": [
+        {
+          "name": "John Kelly",
+          "email": "john.kelly@healthcaresource.com",
+          "type": "organizer",
+          "status": "pending"
+        },
+        {
+          "name": "some person",
+          "email": "person@someperson.com",
+          "type": "invitee",
+          "status": "pending"
+        }
+      ],
+      "location": "phone",
+      "duration": "60",
+      "requestSubject": "request subject",
+      "requestMessage": "Hello,\n\nThank you for your application to [company name]. We would like to invite you to interview with us to tell you a little more about the position and get to know you better.\n\nPlease use our self-scheduler to set up an interview time. Once you have selected an available time, you’ll receive a confirmation email with interview details.\n\nWe look forward to meeting you,\n\nbig boss man\n[Signature]",
+      "confirmSubject": "confirm subject",
+      "confirmMessage": "Hello,\n\nThank you for using our self-scheduler to set up your interview. You are confirmed to meet with [company name] at the time and location below:\n\nWhen: [Date / time and duration of appointment]\nWhere: [Full address or phone contact details]\nWho: [Name of the interviewer]\n\nFeel free to contact me via email or at [insert contact phone number], if you have any questions.\n\nWe look forward to meeting with you and discussing this opportunity.\n\nKind regards,\n\nbig boss man\n[Signature]",
+      "meetingId": "98e5850c-1611-0c76-9acb-715cf68e93d4",
+      "clientId": 59943,
+      "start": "",
+      "end": "",
+      "summary": "What is summary used for?",
+      "possibleMeetingTimes": [
+        {
+          "start": "2018-05-28T13:00:00.000Z",
+          "end": "2018-05-28T16:00:00.000Z"
+        },
+        {
+          "start": "2018-05-29T14:00:00.000Z",
+          "end": "2018-05-29T22:00:00.000Z"
+        },
+        {
+          "start": "2018-05-30T12:00:00.000Z",
+          "end": "2018-05-30T14:00:00.000Z"
+        },
+        {
+          "start": "2018-05-31T16:00:00.000Z",
+          "end": "2018-05-31T22:00:00.000Z"
+        },
+        {
+          "start": "2018-06-01T17:00:00.000Z",
+          "end": "2018-06-01T23:00:00.000Z"
+        }
+      ],
+      "createdDate": "2018-05-21T14:36:34.197Z",
+      "modifiedDate": "2018-05-21T14:36:34.197Z",
+      "inviteStatus": "pending",
+      "createdBy": "0e43dc9c-4055-e04e-1f79-81aa9fba2dbd",
+      "versionNumber": 0,
+      "id": 6
+    },
+    {
+      "participants": [
+        {
+          "name": "John Kelly",
+          "email": "john.kelly@healthcaresource.com",
+          "type": "organizer",
+          "status": "pending"
+        },
+        {
+          "name": "test",
+          "email": "test@test.co",
+          "type": "invitee",
+          "status": "pending"
+        }
+      ],
+      "location": "phone",
+      "duration": "15",
+      "requestSubject": "test",
+      "requestMessage": "Hello,\n\nThank you for your application to [company name]. We would like to invite you to interview with us to tell you a little more about the position and get to know you better.\n\nPlease use our self-scheduler to set up an interview time. Once you have selected an available time, you’ll receive a confirmation email with interview details.\n\nWe look forward to meeting you,\n\n",
+      "confirmSubject": "test",
+      "confirmMessage": "Hello,\n\nThank you for using our self-scheduler to set up your interview. You are confirmed to meet with [company name] at the time and location below:\n\nWhen: [Date / time and duration of appointment]\nWhere: [Full address or phone contact details]\nWho: [Name of the interviewer]\n\nFeel free to contact me via email or at [insert contact phone number], if you have any questions.\n\nWe look forward to meeting with you and discussing this opportunity.\n\nKind regards,\n\n",
+      "meetingId": "b4e3e26d-3f6b-0e57-b8a5-d7b777f0d89d",
+      "clientId": 43753,
+      "start": "",
+      "end": "",
+      "summary": "What is summary used for?",
+      "possibleMeetingTimes": [
+        {
+          "start": "2018-05-28T13:00:00.000Z",
+          "end": "2018-05-28T20:00:00.000Z"
+        }
+      ],
+      "createdDate": "2018-05-21T16:40:36.728Z",
+      "modifiedDate": "2018-05-21T16:40:36.728Z",
+      "inviteStatus": "pending",
+      "createdBy": "81abeac3-c37c-f170-d42e-033f3a8184b8",
+      "versionNumber": 0,
+      "id": 7
+    },
+    {
+      "participants": [
+        {
+          "name": "John Kelly",
+          "email": "john.kelly@healthcaresource.com",
+          "type": "organizer",
+          "status": "pending"
+        },
+        {
+          "name": "John Kelly",
+          "email": "john.kelly@healthcarecource.com",
+          "type": "invitee",
+          "status": "pending"
+        }
+      ],
+      "location": "phone",
+      "duration": "30",
+      "requestSubject": "request",
+      "requestMessage": "Hello,\n\nThank you for your application to [company name]. We would like to invite you to interview with us to tell you a little more about the position and get to know you better.\n\nPlease use our self-scheduler to set up an interview time. Once you have selected an available time, you’ll receive a confirmation email with interview details.\n\nWe look forward to meeting you,\n\nsome dude",
+      "confirmSubject": "confirm",
+      "confirmMessage": "Hello,\n\nThank you for using our self-scheduler to set up your interview. You are confirmed to meet with [company name] at the time and location below:\n\nWhen: [Date / time and duration of appointment]\nWhere: [Full address or phone contact details]\nWho: [Name of the interviewer]\n\nFeel free to contact me via email or at [insert contact phone number], if you have any questions.\n\nWe look forward to meeting with you and discussing this opportunity.\n\nKind regards,\n\nsome dude",
+      "meetingId": "9595743d-7eba-16ad-c82f-6f4c89081b08",
+      "clientId": 80115,
+      "start": "",
+      "end": "",
+      "summary": "What is summary used for?",
+      "possibleMeetingTimes": [
+        {
+          "start": "2018-05-28T14:00:00.000Z",
+          "end": "2018-05-28T20:00:00.000Z"
+        }
+      ],
+      "createdDate": "2018-05-21T17:59:37.550Z",
+      "modifiedDate": "2018-05-21T17:59:37.550Z",
+      "inviteStatus": "pending",
+      "createdBy": "6063c99b-bae4-3107-4871-e659e8ec98cb",
+      "versionNumber": 0,
+      "id": 8
+    },
+    {
+      "participants": [
+        {
+          "name": "John Kelly",
+          "email": "john.kelly@healthcaresource.com",
+          "type": "organizer",
+          "status": "pending"
+        },
+        {
+          "name": "john kelly",
+          "email": "jwkellyiii@gmail.com",
+          "type": "invitee",
+          "status": "pending"
+        }
+      ],
+      "location": "phone",
+      "duration": "60",
+      "requestSubject": "interview request",
+      "requestMessage": "Hello,\n\nThank you for your application to [company name]. We would like to invite you to interview with us to tell you a little more about the position and get to know you better.\n\nPlease use our self-scheduler to set up an interview time. Once you have selected an available time, you’ll receive a confirmation email with interview details.\n\nWe look forward to meeting you,\n\nvp",
+      "confirmSubject": "confirm subject",
+      "confirmMessage": "Hello,\n\nThank you for using our self-scheduler to set up your interview. You are confirmed to meet with [company name] at the time and location below:\n\nWhen: [Date / time and duration of appointment]\nWhere: [Full address or phone contact details]\nWho: [Name of the interviewer]\n\nFeel free to contact me via email or at [insert contact phone number], if you have any questions.\n\nWe look forward to meeting with you and discussing this opportunity.\n\nKind regards,\n\nvp",
+      "meetingId": "57e9451f-fba9-65f5-cf1c-a8ef81f41618",
+      "clientId": 43540,
+      "start": "",
+      "end": "",
+      "summary": "What is summary used for?",
+      "possibleMeetingTimes": [
+        {
+          "start": "2018-05-28T14:00:00.000Z",
+          "end": "2018-05-28T19:00:00.000Z"
+        },
+        {
+          "start": "2018-05-29T17:00:00.000Z",
+          "end": "2018-05-29T23:00:00.000Z"
+        },
+        {
+          "start": "2018-05-30T17:00:00.000Z",
+          "end": "2018-05-30T20:00:00.000Z"
+        },
+        {
+          "start": "2018-05-31T20:00:00.000Z",
+          "end": "2018-05-31T23:00:00.000Z"
+        },
+        {
+          "start": "2018-06-01T16:00:00.000Z",
+          "end": "2018-06-01T18:00:00.000Z"
+        },
+        {
+          "start": "2018-06-04T18:00:00.000Z",
+          "end": "2018-06-04T23:00:00.000Z"
+        },
+        {
+          "start": "2018-06-05T17:00:00.000Z",
+          "end": "2018-06-05T23:00:00.000Z"
+        },
+        {
+          "start": "2018-06-06T12:00:00.000Z",
+          "end": "2018-06-06T16:00:00.000Z"
+        },
+        {
+          "start": "2018-06-07T21:00:00.000Z",
+          "end": "2018-06-08T04:00:00.000Z"
+        },
+        {
+          "start": "2018-06-08T19:00:00.000Z",
+          "end": "2018-06-09T00:00:00.000Z"
+        }
+      ],
+      "createdDate": "2018-05-21T18:01:51.309Z",
+      "modifiedDate": "2018-05-21T18:01:51.309Z",
+      "inviteStatus": "pending",
+      "createdBy": "e4470180-0a79-1532-9fcc-e0613387d12d",
+      "versionNumber": 0,
+      "id": 9
+    },
+    {
+      "participants": [
+        {
+          "name": "John Kelly",
+          "email": "john.kelly@healthcaresource.com",
+          "type": "organizer",
+          "status": "pending"
+        },
+        {
+          "name": "jk",
+          "email": "test@test.com",
+          "type": "invitee",
+          "status": "pending"
+        }
+      ],
+      "location": "starbucks",
+      "duration": "120",
+      "requestSubject": "interview",
+      "requestMessage": "Hello,\n\nThank you for your application to [company name]. We would like to invite you to interview with us to tell you a little more about the position and get to know you better.\n\nPlease use our self-scheduler to set up an interview time. Once you have selected an available time, you’ll receive a confirmation email with interview details.\n\nWe look forward to meeting you,\n\nCEO",
+      "confirmSubject": "confirm",
+      "confirmMessage": "Hello,\n\nThank you for using our self-scheduler to set up your interview. You are confirmed to meet with [company name] at the time and location below:\n\nWhen: [Date / time and duration of appointment]\nWhere: [Full address or phone contact details]\nWho: [Name of the interviewer]\n\nFeel free to contact me via email or at [insert contact phone number], if you have any questions.\n\nWe look forward to meeting with you and discussing this opportunity.\n\nKind regards,\n\nCEO",
+      "meetingId": "10f4f0d4-cbcc-c743-c615-14700b1da65e",
+      "clientId": 34118,
+      "start": "",
+      "end": "",
+      "summary": "What is summary used for?",
+      "possibleMeetingTimes": [
+        {
+          "start": "2018-05-28T18:00:00.000Z",
+          "end": "2018-05-28T21:00:00.000Z"
+        },
+        {
+          "start": "2018-05-29T16:00:00.000Z",
+          "end": "2018-05-29T21:00:00.000Z"
+        },
+        {
+          "start": "2018-05-30T17:00:00.000Z",
+          "end": "2018-05-30T21:00:00.000Z"
+        },
+        {
+          "start": "2018-05-31T14:00:00.000Z",
+          "end": "2018-05-31T22:00:00.000Z"
+        },
+        {
+          "start": "2018-06-01T13:00:00.000Z",
+          "end": "2018-06-01T15:00:00.000Z"
+        },
+        {
+          "start": "2018-06-04T20:00:00.000Z",
+          "end": "2018-06-05T00:00:00.000Z"
+        },
+        {
+          "start": "2018-06-05T12:00:00.000Z",
+          "end": "2018-06-05T15:00:00.000Z"
+        },
+        {
+          "start": "2018-06-06T13:00:00.000Z",
+          "end": "2018-06-06T20:00:00.000Z"
+        },
+        {
+          "start": "2018-06-07T21:00:00.000Z",
+          "end": "2018-06-07T22:00:00.000Z"
+        },
+        {
+          "start": "2018-06-08T19:00:00.000Z",
+          "end": "2018-06-08T22:00:00.000Z"
+        },
+        {
+          "start": "2018-06-11T14:00:00.000Z",
+          "end": "2018-06-11T18:00:00.000Z"
+        },
+        {
+          "start": "2018-06-12T15:00:00.000Z",
+          "end": "2018-06-12T19:00:00.000Z"
+        },
+        {
+          "start": "2018-06-13T16:00:00.000Z",
+          "end": "2018-06-13T23:00:00.000Z"
+        },
+        {
+          "start": "2018-06-14T13:00:00.000Z",
+          "end": "2018-06-14T16:00:00.000Z"
+        },
+        {
+          "start": "2018-06-15T16:00:00.000Z",
+          "end": "2018-06-15T18:00:00.000Z"
+        }
+      ],
+      "createdDate": "2018-05-21T18:04:55.157Z",
+      "modifiedDate": "2018-05-21T18:04:55.157Z",
+      "inviteStatus": "pending",
+      "createdBy": "f8ff74f3-4e09-6bff-2dd2-6baf3bad894b",
+      "versionNumber": 0,
+      "id": 10
+    },
+    {
+      "participants": [
+        {
+          "name": "John Kelly",
+          "email": "john.kelly@healthcaresource.com",
+          "type": "organizer",
+          "status": "pending"
+        },
+        {
+          "name": "test",
+          "email": "test@test.co",
+          "type": "invitee",
+          "status": "pending"
+        }
+      ],
+      "location": "phone",
+      "duration": "15",
+      "requestSubject": "test",
+      "requestMessage": "testing",
+      "confirmSubject": "test",
+      "confirmMessage": "testing 2",
+      "meetingId": "e1d2f541-31d4-ec95-5351-10e82f39c149",
+      "clientId": 69367,
+      "start": "",
+      "end": "",
+      "summary": "What is summary used for?",
+      "possibleMeetingTimes": [
+        {
+          "start": "2018-05-28T18:00:00.000Z",
+          "end": "2018-05-28T23:00:00.000Z"
+        }
+      ],
+      "createdDate": "2018-05-21T18:39:50.766Z",
+      "modifiedDate": "2018-05-21T18:39:50.766Z",
+      "inviteStatus": "pending",
+      "createdBy": "0266fdb9-2122-e932-c961-85d473eaa5fa",
+      "versionNumber": 0,
+      "id": 11
     }
   ]
 }
