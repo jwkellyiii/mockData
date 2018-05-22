@@ -1,5 +1,4 @@
 {
-  "users": [],
   "meetings": [
     {
       "id": 1,
@@ -544,45 +543,6 @@
       "createdBy": "f8ff74f3-4e09-6bff-2dd2-6baf3bad894b",
       "versionNumber": 0,
       "id": 10
-    },
-    {
-      "participants": [
-        {
-          "name": "John Kelly",
-          "email": "john.kelly@healthcaresource.com",
-          "type": "organizer",
-          "status": "pending"
-        },
-        {
-          "name": "test",
-          "email": "test@test.co",
-          "type": "invitee",
-          "status": "pending"
-        }
-      ],
-      "location": "phone",
-      "duration": "15",
-      "requestSubject": "test",
-      "requestMessage": "testing",
-      "confirmSubject": "test",
-      "confirmMessage": "testing 2",
-      "meetingId": "e1d2f541-31d4-ec95-5351-10e82f39c149",
-      "clientId": 69367,
-      "start": "",
-      "end": "",
-      "summary": "What is summary used for?",
-      "possibleMeetingTimes": [
-        {
-          "start": "2018-05-28T18:00:00.000Z",
-          "end": "2018-05-28T23:00:00.000Z"
-        }
-      ],
-      "createdDate": "2018-05-21T18:39:50.766Z",
-      "modifiedDate": "2018-05-21T18:39:50.766Z",
-      "inviteStatus": "pending",
-      "createdBy": "0266fdb9-2122-e932-c961-85d473eaa5fa",
-      "versionNumber": 0,
-      "id": 11
     }
   ]
 }
